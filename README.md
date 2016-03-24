@@ -14,3 +14,6 @@ Then, ch.circle(svg, id, x, y, r) passes in a jquery selector for your freshly c
 
 Alternatively, use ch.rect(svg, id, x, y, w, h) to do the same for a rectangular shape with width and height values. And that's it! Have fun interacting with your canvas element!
 
+#PS
+jQuery is a dependency.
+
