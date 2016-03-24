@@ -26,7 +26,7 @@ var ch = {
 		var svg = svg;
 		svg.append(circle);
 	},
-	rectangle: function(svg, id, x, y, w, h) {
+	rect: function(svg, id, x, y, w, h) {
 		var rectangle = document.createElementNS("http://www.w3.org/2000/svg", "rect");
 		rectangle.setAttribute('x', x);
 		rectangle.setAttribute('y', y);
